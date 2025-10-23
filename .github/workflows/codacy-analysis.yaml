@@ -1,0 +1,17 @@
+name: Codacy Analysis
+
+   on:
+     push:
+       branches: [ main, master ]
+     pull_request:
+       branches: [ main, master ]
+
+   jobs:
+     codacy-security-scan:
+       runs-on: ubuntu-latest
+       steps:
+         - name: Checkout code
+           uses: actions/checkout@v3
+
+         - name: Run Codacy Analysis CLI
+           uses: codacy/codacy-analysis-cli-action@master
