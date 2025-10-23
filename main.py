@@ -5,10 +5,7 @@ Created on Thu Oct  8 23:29:10 2020
 @author: mehedi.md.hasan
 """
 
-# ADDING TEST COMMENT FOR W7
-
-# WILL GASSER 
-
+# test test test test test W7 TEST 2
 
 from util import Util
 from iac_testing_antipatterns import IaCTestingAntipatterns
